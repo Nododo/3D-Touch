@@ -15,6 +15,11 @@
 		1FA545D01BE75D9F00B73FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA545CE1BE75D9F00B73FE7 /* LaunchScreen.storyboard */; };
 		1FA545DB1BE75D9F00B73FE7 /* _D_TouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA545DA1BE75D9F00B73FE7 /* _D_TouchTests.m */; };
 		1FA545E61BE75D9F00B73FE7 /* _D_TouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA545E51BE75D9F00B73FE7 /* _D_TouchUITests.m */; };
+		1FA545F41BE765BB00B73FE7 /* open-favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA545F31BE765BB00B73FE7 /* open-favorites.png */; };
+		1FA545FB1BE8868300B73FE7 /* ForceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA545FA1BE8868200B73FE7 /* ForceController.m */; };
+		1FA545FF1BE8930600B73FE7 /* DefaultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA545FE1BE8930600B73FE7 /* DefaultController.m */; };
+		1FA546021BE8933400B73FE7 /* SelectedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA546011BE8933400B73FE7 /* SelectedController.m */; };
+		1FA546051BE8934700B73FE7 /* DestructiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA546041BE8934700B73FE7 /* DestructiveController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		1FA545E11BE75D9F00B73FE7 /* 3D-TouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D-TouchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA545E51BE75D9F00B73FE7 /* _D_TouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_TouchUITests.m; sourceTree = "<group>"; };
 		1FA545E71BE75DA000B73FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA545F31BE765BB00B73FE7 /* open-favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open-favorites.png"; sourceTree = "<group>"; };
+		1FA545F91BE8868200B73FE7 /* ForceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceController.h; sourceTree = "<group>"; };
+		1FA545FA1BE8868200B73FE7 /* ForceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceController.m; sourceTree = "<group>"; };
+		1FA545FC1BE88E0200B73FE7 /* LxDBAnything.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxDBAnything.h; sourceTree = "<group>"; };
+		1FA545FD1BE8930600B73FE7 /* DefaultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultController.h; sourceTree = "<group>"; };
+		1FA545FE1BE8930600B73FE7 /* DefaultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultController.m; sourceTree = "<group>"; };
+		1FA546001BE8933400B73FE7 /* SelectedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedController.h; sourceTree = "<group>"; };
+		1FA546011BE8933400B73FE7 /* SelectedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedController.m; sourceTree = "<group>"; };
+		1FA546031BE8934700B73FE7 /* DestructiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestructiveController.h; sourceTree = "<group>"; };
+		1FA546041BE8934700B73FE7 /* DestructiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestructiveController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +120,19 @@
 				1FA545C41BE75D9F00B73FE7 /* AppDelegate.m */,
 				1FA545C61BE75D9F00B73FE7 /* ViewController.h */,
 				1FA545C71BE75D9F00B73FE7 /* ViewController.m */,
+				1FA545F91BE8868200B73FE7 /* ForceController.h */,
+				1FA545FA1BE8868200B73FE7 /* ForceController.m */,
+				1FA545FD1BE8930600B73FE7 /* DefaultController.h */,
+				1FA545FE1BE8930600B73FE7 /* DefaultController.m */,
+				1FA546001BE8933400B73FE7 /* SelectedController.h */,
+				1FA546011BE8933400B73FE7 /* SelectedController.m */,
+				1FA546031BE8934700B73FE7 /* DestructiveController.h */,
+				1FA546041BE8934700B73FE7 /* DestructiveController.m */,
+				1FA545FC1BE88E0200B73FE7 /* LxDBAnything.h */,
 				1FA545C91BE75D9F00B73FE7 /* Main.storyboard */,
 				1FA545CC1BE75D9F00B73FE7 /* Assets.xcassets */,
 				1FA545CE1BE75D9F00B73FE7 /* LaunchScreen.storyboard */,
+				1FA545F31BE765BB00B73FE7 /* open-favorites.png */,
 				1FA545D11BE75D9F00B73FE7 /* Info.plist */,
 				1FA545C01BE75D9F00B73FE7 /* Supporting Files */,
 			);
@@ -207,6 +232,7 @@
 				TargetAttributes = {
 					1FA545BC1BE75D9F00B73FE7 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8BN3CYU4KF;
 					};
 					1FA545D51BE75D9F00B73FE7 = {
 						CreatedOnToolsVersion = 7.1;
@@ -246,6 +272,7 @@
 				1FA545D01BE75D9F00B73FE7 /* LaunchScreen.storyboard in Resources */,
 				1FA545CD1BE75D9F00B73FE7 /* Assets.xcassets in Resources */,
 				1FA545CB1BE75D9F00B73FE7 /* Main.storyboard in Resources */,
+				1FA545F41BE765BB00B73FE7 /* open-favorites.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA546021BE8933400B73FE7 /* SelectedController.m in Sources */,
 				1FA545C81BE75D9F00B73FE7 /* ViewController.m in Sources */,
+				1FA545FB1BE8868300B73FE7 /* ForceController.m in Sources */,
 				1FA545C51BE75D9F00B73FE7 /* AppDelegate.m in Sources */,
+				1FA546051BE8934700B73FE7 /* DestructiveController.m in Sources */,
 				1FA545C21BE75D9F00B73FE7 /* main.m in Sources */,
+				1FA545FF1BE8930600B73FE7 /* DefaultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +444,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "3D-Touch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JZG.www.-D-Touch";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ado.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +456,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "3D-Touch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JZG.www.-D-Touch";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ado.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +531,7 @@
 				1FA545EC1BE75DA000B73FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FA545ED1BE75DA000B73FE7 /* Build configuration list for PBXNativeTarget "3D-TouchTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +540,7 @@
 				1FA545EF1BE75DA000B73FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FA545F01BE75DA000B73FE7 /* Build configuration list for PBXNativeTarget "3D-TouchUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +549,7 @@
 				1FA545F21BE75DA000B73FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
