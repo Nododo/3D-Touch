@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DefaultController.h"
+#import "SelectedController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,35 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+
+    
+    if ([launchOptions objectForKey:UIApplicationLaunchOptionsShortcutItemKey]) return NO;
+    
+    return YES;
+}
+
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
+{
+    if ([shortcutItem.localizedTitle isEqualToString:@"ado"]) {
+        DefaultController *defaultVC = [[DefaultController alloc] init];
+        UINavigationController *naVC = (UINavigationController *)self.window.rootViewController;
+        [naVC popToRootViewControllerAnimated:NO];
+        [naVC pushViewController:defaultVC animated:NO];
+    }else
+    {
+        SelectedController *selectedVC = [[SelectedController alloc] init];
+        UINavigationController *naVC = (UINavigationController *)self.window.rootViewController;
+        [naVC popToRootViewControllerAnimated:NO];
+        [naVC pushViewController:selectedVC animated:NO];
+    }
+}
+
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    if ([launchOptions objectForKey:UIApplicationLaunchOptionsShortcutItemKey]) return NO;
+    
     return YES;
 }
 
