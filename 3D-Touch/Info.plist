@@ -30,13 +30,13 @@
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>ado</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>First</string>
+			<string>UIApplicationShortcutIconTypeCompose</string>
 		</dict>
 		<dict>
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>nododo</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>Second</string>
+			<string>UIApplicationShortcutIconTypeCompose</string>
 		</dict>
 	</array>
 	<key>UILaunchStoryboardName</key>
